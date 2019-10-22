@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-21T15:09:41</date>
+  <millis>1571688581338</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/CalculatorTestSuit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">CalculatorTestSuit</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/CalculatorTestSuit</property>
+</record>
+<record>
+  <date>2019-10-21T15:09:41</date>
+  <millis>1571688581377</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = INDRA - 192.168.1.67</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">INDRA - 192.168.1.67</property>
+</record>
+<record>
+  <date>2019-10-21T15:09:41</date>
+  <millis>1571688581379</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-10-21T15:09:41</date>
+  <millis>1571688581380</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.67</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.67</property>
+</record>
+<record>
+  <date>2019-10-21T15:09:41</date>
+  <millis>1571688581381</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2019-10-21T15:09:41</date>
+  <millis>1571688581944</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TestCalculator/AdicionTest</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TestCalculator/AdicionTest</property>
+  <property name="description">Validar la suma de dos n\u00FAmero</property>
+  <property name="id">Test Cases/TestCalculator/AdicionTest</property>
+  <property name="source">C:\\Users\\INDRA\\Katalon Studio\\API_DEMO\\Test Cases\\TestCalculator\\AdicionTest.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-21T15:09:42</date>
+  <millis>1571688582612</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, \&amp;quot;AddResponse.AddResult\&amp;quot;, \&amp;quot;6\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-21T15:09:42</date>
+  <millis>1571688582618</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, \&amp;quot;AddResponse.AddResult\&amp;quot;, \&amp;quot;6\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-21T15:09:42</date>
+  <millis>1571688582870</millis>
+  <sequence>10</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TestCalculator/AdicionTest FAILED.\nReason:\ngroovy.lang.MissingPropertyException: No such property: response for class: Script1571688443981\r\n\tat AdicionTest.run(AdicionTest:16)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1571688575388.run(TempTestSuite1571688575388.groovy:35)\r\n</message>
+  <exception>
+    <message>groovy.lang.MissingPropertyException: No such property: response for class: Script1571688443981</message>
+    <frame>
+      <class>AdicionTest</class>
+      <method>run</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1571688575388</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingPropertyException: No such property: response for class: Script1571688443981\r\n\tat AdicionTest.run(AdicionTest:16)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1571688575388.run(TempTestSuite1571688575388.groovy:35)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingPropertyException</property>
+  <property name="failed.exception.message">No such property: response for class: Script1571688443981</property>
+</record>
+<record>
+  <date>2019-10-21T15:09:42</date>
+  <millis>1571688582879</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TestCalculator/AdicionTest</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-21T15:09:43</date>
+  <millis>1571688583001</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/CalculatorTestSuit</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-21T15:12:00</date>
+  <millis>1571688720792</millis>
+  <sequence>965</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1617</thread>
+  <message>HAR: C:\\Users\\INDRA\\AppData\\Local\\Temp\\har3136752854711908191\\requests\\ModalContext\\26.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">04cb33fb-d0b6-4f4c-99c1-7dd77d5deb8b</property>
+</record>
+<record>
+  <date>2019-10-21T15:12:12</date>
+  <millis>1571688732104</millis>
+  <sequence>966</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1623</thread>
+  <message>HAR: C:\\Users\\INDRA\\AppData\\Local\\Temp\\har4415787023151119366\\requests\\ModalContext\\27.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4812f091-95b4-4a47-a304-e003d87e0014</property>
+</record>
+<record>
+  <date>2019-10-22T09:00:45</date>
+  <millis>1571752845837</millis>
+  <sequence>1128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1920</thread>
+  <message>HAR: C:\\Users\\INDRA\\AppData\\Local\\Temp\\har6709662268898758883\\requests\\ModalContext\\28.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">9fb004d3-a588-4155-a2b7-4ff2002e7704</property>
+</record>
+<record>
+  <date>2019-10-22T09:01:10</date>
+  <millis>1571752870556</millis>
+  <sequence>1129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1926</thread>
+  <message>HAR: C:\\Users\\INDRA\\AppData\\Local\\Temp\\har2123633839462652607\\requests\\ModalContext\\29.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4a9e32ba-96b3-42dc-a0cf-8eac859df256</property>
+</record>
+<record>
+  <date>2019-10-22T09:07:46</date>
+  <millis>1571753266288</millis>
+  <sequence>1130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1933</thread>
+  <message>HAR: C:\\Users\\INDRA\\AppData\\Local\\Temp\\har3550531067536440272\\requests\\ModalContext\\30.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">02f55274-d79a-4df2-90f6-997380a7541f</property>
+</record>
+<record>
+  <date>2019-10-22T09:58:54</date>
+  <millis>1571756334265</millis>
+  <sequence>1189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2157</thread>
+  <message>HAR: C:\\Users\\INDRA\\AppData\\Local\\Temp\\har31981171493196400\\requests\\ModalContext\\31.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">ce7fe4d0-3fea-4b6e-b1c3-57fdaedd35b9</property>
+</record>
+<record>
+  <date>2019-10-22T09:59:31</date>
+  <millis>1571756371863</millis>
+  <sequence>1190</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2162</thread>
+  <message>HAR: C:\\Users\\INDRA\\AppData\\Local\\Temp\\har4095487121316219501\\requests\\ModalContext\\32.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">d0a55fe3-d937-4da5-9280-37e77797550d</property>
+</record>
+<record>
+  <date>2019-10-22T10:00:08</date>
+  <millis>1571756408224</millis>
+  <sequence>1191</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2167</thread>
+  <message>HAR: C:\\Users\\INDRA\\AppData\\Local\\Temp\\har6245587029882875968\\requests\\ModalContext\\33.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">de5b94f6-c498-444d-89e6-20630033b841</property>
+</record>

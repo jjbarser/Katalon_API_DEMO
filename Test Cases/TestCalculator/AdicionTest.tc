@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validar la suma de dos número</description>
+   <name>AdicionTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>890acdea-5733-4715-8d81-b8c84dcb41e2</testCaseGuid>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>c14038ac-ea5e-4a6f-8cdf-f82787920bf3</id>
+      <masked>false</masked>
+      <name>resultado</name>
+   </variable>
+</TestCaseEntity>

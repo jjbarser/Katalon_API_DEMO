@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test que valida si se envía el request al servicio y si la respuesta termina en ok.
+</description>
+   <name>VerificarRequestTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>977fd118-e398-4e1e-8439-f8dad3b9e862</testCaseGuid>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>bc272776-e66f-4ab6-a47c-3a30921bd167</id>
+      <masked>false</masked>
+      <name>retardo</name>
+   </variable>
+</TestCaseEntity>
