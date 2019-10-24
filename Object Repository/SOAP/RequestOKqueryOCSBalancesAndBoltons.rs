@@ -59,17 +59,20 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
-
-
 WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
 
+def xml=response.getResponseText()
+def parsed = new XmlParser().parseText( xml )
 
+def jsonObject = [ (parsed.name()): parsed.collect {
+  [ (it.name()): it.text() ]
+} ]
+def json = new groovy.json.JsonBuilder( jsonObject )
 
-
-
+printf(xml, json)
 
 
 

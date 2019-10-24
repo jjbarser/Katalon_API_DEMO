@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Válida que el valor obligatorio de saldos se encuentré en la firma</description>
+   <name>VerifyResponseBalanceTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80f84c26-c226-4d0a-947a-0a3a51cee0f7</testCaseGuid>
+</TestCaseEntity>

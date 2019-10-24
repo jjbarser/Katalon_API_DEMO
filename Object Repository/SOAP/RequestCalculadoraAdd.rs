@@ -56,6 +56,8 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
 
+WS.verifyElementText(response, 'AddResponse.AddResult', '6')
+
 
 </verificationScript>
    <wsdlAddress>http://www.dneonline.com/calculator.asmx?wsdl</wsdlAddress>

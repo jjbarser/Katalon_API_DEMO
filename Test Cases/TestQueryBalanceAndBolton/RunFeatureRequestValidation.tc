@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cucumber Class</description>
+   <name>RunFeatureRequestValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e92fa47-2798-4e65-9c9a-744b34f6ad2f</testCaseGuid>
+</TestCaseEntity>

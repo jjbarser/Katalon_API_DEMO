@@ -18,3 +18,5 @@ response = WS.sendRequestAndVerify(findTestObject('SOAP/RequestCalculadoraAdd'))
 
 WS.verifyElementPropertyValue(response, 'AddResponse.AddResult', resultado)
 
+def xml1=response.getResponseText().contains('6')
+

@@ -13,9 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.delay(retardo)
-
-response = WS.sendRequest(findTestObject('SOAP/RequestOKqueryOCSBalancesAndBoltons'), FailureHandling.STOP_ON_FAILURE)
-
-WS.sendRequestAndVerify(findTestObject('SOAP/RequestOKqueryOCSBalancesAndBoltons'))
+CucumberKW.runWithCucumberRunner(CucumberRunner.class)
 
